@@ -1,0 +1,319 @@
+body {
+    background-color: #f1f1f1;
+    color: #777;
+    margin: 30px auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .page-container {
+        width: 96%
+    }
+}
+
+.viva-tabs {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.viva-tabs a span[class^="icon"] {
+    position: absolute;
+    font-size: 30px;
+    line-height: 1;
+    top: 2px;
+    left: 8px;
+}
+
+.modal-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2196f3;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    z-index: 1;
+}
+
+.modal-add {
+    background-color: transparent;
+}
+
+.modal-add .modal-content {
+    margin-top: 45px;
+    background-color: #fafafa;
+}
+
+.modal-add .modal-header .modal-close {
+    position: absolute;
+    left: 0;
+    font-size: 25px;
+    top: 7px;
+    height: 25px;
+}
+
+.modal.modal-add .modal-footer {
+    border-radius: 0 0 2px 2px;
+    background-color: #fafafa;
+    padding: 15px 16px;
+    height: 67px;
+}
+
+.modal.modal-add.modal-fixed-footer .modal-footer {
+    border-top: none;
+}
+
+.modal.modal-add .modal-content {
+    padding: 15px;
+}
+
+.modal.modal-add .modal-footer .btn,
+.modal.modal-add .modal-footer .btn-large,
+.modal.modal-add .modal-footer .btn-flat {
+    margin: 0 0 0 15px;
+    font-size: 12px;
+    padding: 0 1.5rem;
+}
+
+.modal-header-title {
+    position: relative;
+}
+
+.modal-request .modal-content {}
+
+#vivavu .modal-add input {
+    height: auto;
+    font-size: 1.15rem;
+    padding: 5px 0;
+}
+
+.modal-header .modal-header-title span[class^="icon-"] {
+    font-size: 28px;
+    line-height: 0;
+    position: absolute;
+    margin-left: -38px;
+    top: 7px;
+}
+
+.viva-tabs a span[class^="fa"] {
+    margin-left: 10px;
+    color: #ddd;
+}
+
+.viva-tabs .dropdown-button ~ ul li {
+    min-height: initial;
+    line-height: 1;
+    border: none;
+}
+
+.viva-tabs .dropdown-button ~ ul li a {
+    line-height: 1;
+    padding: 15px;
+    font-size: 12px;
+    color: #777;
+}
+
+.viva-tabs a,
+.viva-tabs ul {
+    line-height: 1;
+    color: #777;
+    font-size: 12px;
+}
+
+.viva-tabs a {
+    position: relative;
+    padding: 15px 15px 15px 45px;
+}
+
+.viva-tabs .dropdown-content {
+    min-width: 150px;
+}
+
+.viva-tabs li {
+    border-left: 1px solid #f1f1f1;
+}
+
+.viva-tabs li:first-child {
+    border-left: none;
+}
+
+.viva-tabs ul {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.viva-tabs .dropdown-content {
+    background-color: #FFFFFF;
+    margin: 0;
+    display: none;
+    max-height: auto;
+    margin-left: -1px;
+    /* Add this to keep dropdown in line with edge of navbar */
+    overflow: hidden;
+    /* Changed this from overflow-y:auto; to overflow:hidden; */
+    opacity: 0;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    will-change: width, height;
+}
+
+.viva-table * {
+    font-size: 12px;
+}
+
+.viva-table thead {
+    background-color: #e3e3e3;
+    text-transform: uppercase;
+    color: #323232;
+}
+
+.viva-table th {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+table.bordered.viva-table tr {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.viva-table tbody {
+    background-color: #fff;
+}
+
+.viva-table th {
+    padding: 15px 0 15px 15px;
+}
+
+.viva-table td {
+    padding: 10px 0 10px 15px;
+}
+
+.viva-table td,
+.viva-table th {
+    padding-right: 15px;
+}
+
+.relative {
+    position: relative;
+}
+
+table .priority-level {
+    display: inline-block;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 9px 3px;
+    line-height: 1;
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    top: 8px;
+}
+
+.btn-floating span {
+    font-size: 30px;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 30px;
+}
+
+.one4th {
+    background-color: #ffc107;
+}
+
+.two4th {
+    background-color: #ffc107;
+}
+
+.three4th {
+    background-color: #fea525;
+}
+
+.Four4th {
+    background-color: #f34334;
+}
+
+.fab-top {
+    top: 23px;
+    right: 3%;
+}
+
+.dropdown-content li {
+    min-height: initial;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 14px;
+    color: #2196f3;
+    padding: 8px 10px;
+}
+.select-wrapper input.select-dropdown {
+    border-bottom: 1px solid #dadada;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.15rem;
+}
+
+.select-wrapper span.caret {
+    top: 6px;
+}
+
+html.vivavu input[type=text]{
+    height: 2rem;
+    border-bottom: 1px solid #dadada;
+    font-size: 1.15rem;
+}
+
+html.vivavu .input-field input ~ label.active {
+    top: 0.5rem;
+}
+html.vivavu .input-field input ~ label {
+    top: 0.25rem;
+}
+
+html.vivavu input:not([type]):focus:not([readonly])+label,
+html.vivavu input[type=text]:focus:not([readonly])+label,
+html.vivavu input[type=password]:focus:not([readonly])+label,
+html.vivavu input[type=email]:focus:not([readonly])+label,
+html.vivavu input[type=url]:focus:not([readonly])+label,
+html.vivavu input[type=time]:focus:not([readonly])+label,
+html.vivavu input[type=date]:focus:not([readonly])+label,
+html.vivavu input[type=datetime]:focus:not([readonly])+label,
+html.vivavu input[type=datetime-local]:focus:not([readonly])+label,
+html.vivavu input[type=tel]:focus:not([readonly])+label,
+html.vivavu input[type=number]:focus:not([readonly])+label,
+html.vivavu input[type=search]:focus:not([readonly])+label,
+html.vivavu textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #2196f3;
+}
+
+html.vivavu input:not([type]):focus:not([readonly]),
+html.vivavu input[type=text]:focus:not([readonly]),
+html.vivavu input[type=password]:focus:not([readonly]),
+html.vivavu input[type=email]:focus:not([readonly]),
+html.vivavu input[type=url]:focus:not([readonly]),
+html.vivavu input[type=time]:focus:not([readonly]),
+html.vivavu input[type=date]:focus:not([readonly]),
+html.vivavu input[type=datetime]:focus:not([readonly]),
+html.vivavu input[type=datetime-local]:focus:not([readonly]),
+html.vivavu input[type=tel]:focus:not([readonly]),
+html.vivavu input[type=number]:focus:not([readonly]),
+html.vivavu input[type=search]:focus:not([readonly]),
+html.vivavu textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #2196f3;
+    box-shadow: 0 1px 0 0 #2196f3;
+}
+
+.select-wrapper+label {
+    top: -18px;
+}
