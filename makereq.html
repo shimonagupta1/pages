@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> req form </title>
+    <link rel="stylesheet" href="makereq.css">
+
+
+</head>
+<body>
+<div id="form-main">
+    <div id="form-div">
+        <form class="form" id="form1">
+
+            <div class="category">
+                <select>
+                    <option> Select a category </option>
+                    <option value="Electronics and appliances"> Electronics and appliances </option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Cars and bikes">Cars and bikes</option>
+                    <option value="Books,Sports and Hobbies">Books,Sports and Hobbies</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <p class="name">
+                <input name="product" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Enter product name" id="product" />
+            </p>
+
+            <div class="dates">
+                Set requirement period
+                <p>
+                <input name="from" type="date"  id="from" placeholder="From" />
+                To
+                <input name="to" type="date"  id="to" placeholder="To" />
+            </p>
+            </div>
+
+
+            <p class="price">
+                <input name="price" type="text" class="validate[required,custom[email]] feedback-input" id="price" placeholder="Set a price" />
+            </p>
+
+
+            <div class="submit">
+                <input type="submit" value="POST" id="button-blue"/>
+                <div class="ease"></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+</body>
+</html>

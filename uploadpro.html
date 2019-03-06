@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> req form </title>
+    <link rel="stylesheet" href="uploadpro.css">
+    <script src="uploadpro.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="form-main">
+    <div id="form-div">
+        <form class="form" id="form1">
+
+            <div class="category">
+                <select>
+                    <option> Select a category </option>
+                    <option value="Electronics and appliances"> Electronics and appliances </option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Cars and bikes">Cars and bikes</option>
+                    <option value="Books,Sports and Hobbies">Books,Sports and Hobbies</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="Other">Other</option>
+                </select>
+                </div>
+
+            <p class="name">
+                <input name="product" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Enter product name" id="product" />
+            </p>
+
+
+
+            <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Description"></textarea>
+            </p>
+
+            <p class="price">
+                <input name="price" type="text" class="validate[required,custom[email]] feedback-input" id="price" placeholder="Set a price" />
+            </p>
+
+            <img src="#" alt="your image" class="target" />
+            <label for="file">Choose image</label>
+            <input type="file" id="file" />
+
+
+            <img src="#" alt="your image" class="target" />
+            <label for="file">Choose image</label>
+            <input type="file" id="file" />
+
+
+            <div class="submit">
+                <input type="submit" value="POST" id="button-blue"/>
+                <div class="ease"></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
